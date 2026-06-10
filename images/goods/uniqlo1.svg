@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f5f5f5"/>
+  <!-- Hoodie body -->
+  <path d="M120,120 L100,140 L100,320 L300,320 L300,140 L280,120 L250,130 Q230,150 200,150 Q170,150 150,130 Z" fill="#333"/>
+  <!-- Hood -->
+  <path d="M150,130 Q160,80 200,70 Q240,80 250,130 Q240,100 200,95 Q160,100 150,130" fill="#333"/>
+  <!-- Hood inner -->
+  <path d="M160,125 Q170,90 200,82 Q230,90 240,125 Q230,100 200,95 Q170,100 160,125" fill="#444"/>
+  <!-- Pocket -->
+  <rect x="155" y="220" width="90" height="60" rx="5" fill="#2a2a2a"/>
+  <!-- Sleeve left -->
+  <path d="M120,120 L100,140 L70,200 L90,210 L115,155 Z" fill="#333"/>
+  <!-- Sleeve right -->
+  <path d="M280,120 L300,140 L330,200 L310,210 L285,155 Z" fill="#333"/>
+  <!-- Collar/neckline -->
+  <path d="M170,120 Q185,140 200,145 Q215,140 230,120" fill="none" stroke="#444" stroke-width="3"/>
+  <!-- Drawstrings -->
+  <line x1="185" y1="140" x2="185" y2="180" stroke="#666" stroke-width="2"/>
+  <line x1="215" y1="140" x2="215" y2="180" stroke="#666" stroke-width="2"/>
+  <!-- UT label -->
+  <rect x="270" y="160" width="25" height="35" rx="2" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <text x="282" y="180" font-family="Arial" font-size="8" fill="#333" text-anchor="middle">UT</text>
+  <!-- Graphic on front -->
+  <text x="200" y="200" font-family="Arial" font-size="18" fill="#FF6B35" text-anchor="middle" font-weight="bold">KAWS</text>
+  <!-- Label -->
+  <text x="200" y="360" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">优衣库联名卫衣 L码</text>
+  <text x="200" y="380" font-family="Arial, sans-serif" font-size="12" fill="#999" text-anchor="middle">全新带吊牌</text>
+</svg>

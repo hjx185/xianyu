@@ -1,0 +1,235 @@
+﻿/* 发布商品页样式 - 闲鱼风格 v2.0 */
+
+.publish-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+}
+
+.page-title {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* 图片上传区域 */
+.form-section {
+    margin-bottom: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.form-section:last-of-type {
+    border-bottom: none;
+}
+
+.image-upload-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.upload-placeholder {
+    width: 100px;
+    height: 100px;
+    border: 2px dashed #ddd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.upload-placeholder:hover {
+    border-color: #ffc107;
+    background: #fff8e1;
+}
+
+.upload-icon {
+    font-size: 28px;
+    margin-bottom: 4px;
+}
+
+.upload-text {
+    font-size: 11px;
+    color: #999;
+    text-align: center;
+}
+
+.image-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.preview-item {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.preview-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.preview-item .remove-btn {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 22px;
+    height: 22px;
+    background: rgba(244, 67, 54, 0.9);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s;
+}
+
+.preview-item .remove-btn:hover {
+    transform: scale(1.1);
+}
+
+/* 表单样式 */
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1.5px solid #e8e8e8;
+    border-radius: 10px;
+    font-size: 14px;
+    background: #fafafa;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #ffc107;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.15);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-error {
+    color: #f44336;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.char-count {
+    text-align: right;
+    font-size: 12px;
+    color: #999;
+    margin-top: 4px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+/* 价格输入 */
+.price-input {
+    position: relative;
+}
+
+.price-input .currency {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f44336;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.price-input input {
+    padding-left: 32px;
+}
+
+/* 复选框标签 */
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #ffc107;
+}
+
+/* 提交按钮 */
+.form-actions {
+    display: flex;
+    gap: 16px;
+    margin-top: 28px;
+}
+
+.form-actions .btn {
+    flex: 1;
+    height: 46px;
+    font-weight: 600;
+}
+
+/* 学生信息 */
+.student-info {
+    text-align: center;
+    padding: 16px;
+    background: white;
+    border-radius: 12px;
+}
+
+.student-info p {
+    color: #333;
+    font-size: 18px;`n    font-weight: bold;`n    letter-spacing: 2px;
+}
+
+/* 响应式设计 */
+@media (max-width: 480px) {
+    .publish-container {
+        padding: 16px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}

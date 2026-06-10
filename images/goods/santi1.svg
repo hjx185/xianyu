@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f8f4f0"/>
+  <!-- Book 1 - Three Body -->
+  <rect x="80" y="80" width="70" height="200" rx="3" fill="#1a1a2e"/>
+  <rect x="83" y="83" width="64" height="194" rx="2" fill="#16213e"/>
+  <text x="115" y="140" font-family="Arial" font-size="12" fill="#FFD700" text-anchor="middle">三体</text>
+  <text x="115" y="160" font-family="Arial" font-size="8" fill="#ccc" text-anchor="middle">刘慈欣</text>
+  <line x1="90" y1="180" x2="140" y2="180" stroke="#FFD700" stroke-width="1"/>
+  <!-- Stars decoration -->
+  <circle cx="100" cy="120" r="2" fill="#FFD700"/>
+  <circle cx="130" cy="100" r="1.5" fill="#FFD700"/>
+  <circle cx="115" cy="90" r="1" fill="#FFD700"/>
+  <!-- Book 2 - Dark Forest -->
+  <rect x="155" y="75" width="70" height="205" rx="3" fill="#0d3b0d"/>
+  <rect x="158" y="78" width="64" height="199" rx="2" fill="#1a5c1a"/>
+  <text x="190" y="135" font-family="Arial" font-size="12" fill="#90EE90" text-anchor="middle">黑暗森林</text>
+  <text x="190" y="155" font-family="Arial" font-size="8" fill="#ccc" text-anchor="middle">刘慈欣</text>
+  <line x1="165" y1="175" x2="215" y2="175" stroke="#90EE90" stroke-width="1"/>
+  <!-- Forest silhouette -->
+  <path d="M165,200 L175,180 L185,195 L195,175 L205,190 L215,170 L215,200 Z" fill="#0d3b0d" opacity="0.5"/>
+  <!-- Book 3 - Death's End -->
+  <rect x="230" y="70" width="70" height="210" rx="3" fill="#8B0000"/>
+  <rect x="233" y="73" width="64" height="204" rx="2" fill="#A52A2A"/>
+  <text x="265" y="130" font-family="Arial" font-size="12" fill="#FFD700" text-anchor="middle">死神永生</text>
+  <text x="265" y="150" font-family="Arial" font-size="8" fill="#ccc" text-anchor="middle">刘慈欣</text>
+  <line x1="240" y1="170" x2="290" y2="170" stroke="#FFD700" stroke-width="1"/>
+  <!-- Sun decoration -->
+  <circle cx="265" cy="200" r="15" fill="#FFD700" opacity="0.3"/>
+  <circle cx="265" cy="200" r="8" fill="#FFD700" opacity="0.5"/>
+  <!-- Signature hint -->
+  <rect x="120" y="290" width="160" height="30" rx="3" fill="#fff9e6" stroke="#FFD700" stroke-width="1"/>
+  <text x="200" y="310" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">亲笔签名 · 签名证书</text>
+  <!-- Label -->
+  <text x="200" y="350" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">《三体》全套三册 签名版</text>
+  <text x="200" y="370" font-family="Arial, sans-serif" font-size="12" fill="#999" text-anchor="middle">刘慈欣亲笔签名 收藏级</text>
+</svg>

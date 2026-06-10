@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 300" width="750" height="300">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35"/>
+      <stop offset="50%" style="stop-color:#FF8C42"/>
+      <stop offset="100%" style="stop-color:#FFB347"/>
+    </linearGradient>
+    <linearGradient id="phone1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d2d3f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="scr1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <filter id="shadow1">
+      <feDropShadow dx="4" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="750" height="300" fill="url(#bg1)"/>
+  <!-- Decorative elements -->
+  <circle cx="650" cy="50" r="80" fill="#fff" opacity="0.08"/>
+  <circle cx="700" cy="250" r="60" fill="#fff" opacity="0.06"/>
+  <circle cx="100" cy="260" r="40" fill="#fff" opacity="0.1"/>
+  <circle cx="400" cy="30" r="50" fill="#fff" opacity="0.05"/>
+  <!-- Dots pattern -->
+  <circle cx="500" cy="80" r="3" fill="#fff" opacity="0.2"/>
+  <circle cx="520" cy="80" r="3" fill="#fff" opacity="0.2"/>
+  <circle cx="540" cy="80" r="3" fill="#fff" opacity="0.2"/>
+  <circle cx="500" cy="100" r="3" fill="#fff" opacity="0.2"/>
+  <circle cx="520" cy="100" r="3" fill="#fff" opacity="0.2"/>
+  <circle cx="540" cy="100" r="3" fill="#fff" opacity="0.2"/>
+  <!-- Phone illustration -->
+  <g filter="url(#shadow1)">
+    <rect x="530" y="45" width="115" height="210" rx="18" fill="url(#phone1)" stroke="#4a4a6a" stroke-width="1"/>
+    <rect x="538" y="60" width="99" height="180" rx="10" fill="url(#scr1)"/>
+    <rect x="565" y="65" width="45" height="14" rx="7" fill="#1a1a2e"/>
+    <!-- Screen content -->
+    <rect x="550" y="90" width="80" height="10" rx="5" fill="rgba(255,255,255,0.25)"/>
+    <rect x="550" y="108" width="60" height="7" rx="3.5" fill="rgba(255,255,255,0.15)"/>
+    <rect x="550" y="122" width="70" height="7" rx="3.5" fill="rgba(255,255,255,0.15)"/>
+    <!-- Camera circles on screen -->
+    <circle cx="575" cy="170" r="16" fill="rgba(0,0,0,0.25)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+    <circle cx="575" cy="170" r="10" fill="rgba(0,0,0,0.3)"/>
+    <circle cx="575" cy="170" r="4" fill="#1a1a2e"/>
+    <circle cx="605" cy="170" r="16" fill="rgba(0,0,0,0.25)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+    <circle cx="605" cy="170" r="10" fill="rgba(0,0,0,0.3)"/>
+    <circle cx="605" cy="170" r="4" fill="#1a1a2e"/>
+    <circle cx="590" cy="195" r="16" fill="rgba(0,0,0,0.25)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+    <circle cx="590" cy="195" r="10" fill="rgba(0,0,0,0.3)"/>
+    <circle cx="590" cy="195" r="4" fill="#1a1a2e"/>
+    <!-- Home indicator -->
+    <rect x="570" y="230" width="40" height="3" rx="1.5" fill="rgba(255,255,255,0.3)"/>
+  </g>
+  <!-- Text -->
+  <text x="60" y="105" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="44" font-weight="bold" fill="#fff">数码好物节</text>
+  <text x="60" y="148" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="20" fill="#fff" opacity="0.9">海量数码好物 · 低价抢购</text>
+  <text x="60" y="180" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="14" fill="#fff" opacity="0.7">限时特惠 · 正品保障 · 包邮到家</text>
+  <!-- CTA button -->
+  <rect x="60" y="205" width="140" height="42" rx="21" fill="#fff"/>
+  <text x="130" y="232" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="16" font-weight="bold" fill="#FF6B35" text-anchor="middle">立即抢购</text>
+  <!-- Price tag -->
+  <rect x="340" y="170" width="130" height="65" rx="12" fill="#fff" opacity="0.95"/>
+  <text x="405" y="196" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="13" fill="#666" text-anchor="middle">低至</text>
+  <text x="405" y="224" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="30" font-weight="bold" fill="#e74c3c" text-anchor="middle">5折</text>
+</svg>

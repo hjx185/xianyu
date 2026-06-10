@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="apBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </linearGradient>
+    <linearGradient id="apCase" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#f0f0f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#apBg)" rx="8"/>
+  <!-- Decorative -->
+  <circle cx="320" cy="80" r="60" fill="#ffc107" opacity="0.08"/>
+  <circle cx="80" cy="320" r="40" fill="#ff9800" opacity="0.06"/>
+  <!-- Case body -->
+  <rect x="120" y="120" width="160" height="120" rx="24" fill="url(#apCase)" stroke="#ddd" stroke-width="1.5"/>
+  <!-- Case lid line -->
+  <line x1="120" y1="165" x2="280" y2="165" stroke="#e0e0e0" stroke-width="1.5"/>
+  <!-- Case hinge -->
+  <rect x="175" y="118" width="50" height="6" rx="3" fill="#e8e8e8"/>
+  <!-- LED indicator -->
+  <circle cx="200" cy="155" r="3" fill="#4caf50"/>
+  <!-- Case open showing earbuds -->
+  <path d="M120 120 Q120 90 160 85 L240 85 Q280 90 280 120" fill="none" stroke="#ddd" stroke-width="1.5"/>
+  <!-- Left earbud -->
+  <ellipse cx="170" cy="100" rx="18" ry="15" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <rect x="167" y="100" width="6" height="25" rx="3" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <circle cx="170" cy="97" r="5" fill="#e8e8e8"/>
+  <!-- Right earbud -->
+  <ellipse cx="230" cy="100" rx="18" ry="15" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <rect x="227" y="100" width="6" height="25" rx="3" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <circle cx="230" cy="97" r="5" fill="#e8e8e8"/>
+  <!-- Case bottom details -->
+  <rect x="180" y="225" width="40" height="4" rx="2" fill="#e0e0e0"/>
+  <!-- Charging port -->
+  <rect x="190" y="236" width="20" height="4" rx="2" fill="#ccc"/>
+  <!-- Sparkle effects -->
+  <g opacity="0.4">
+    <path d="M300 150 L303 156 L310 156 L305 160 L307 167 L300 163 L293 167 L295 160 L290 156 L297 156 Z" fill="#ffd700" transform="scale(0.6) translate(200,50)"/>
+    <path d="M80 120 L82 124 L86 124 L83 127 L84 131 L80 128 L76 131 L77 127 L74 124 L78 124 Z" fill="#ffd700" transform="scale(0.5) translate(30,100)"/>
+  </g>
+  <!-- Label -->
+  <text x="200" y="280" font-family="Arial,sans-serif" font-size="15" fill="#333" text-anchor="middle" font-weight="600">AirPods Pro 2</text>
+  <text x="200" y="300" font-family="Arial,sans-serif" font-size="12" fill="#999" text-anchor="middle">全新未拆封</text>
+  <!-- Price -->
+  <rect x="145" y="320" width="110" height="28" rx="14" fill="#fff3e0"/>
+  <text x="200" y="339" font-family="Arial,sans-serif" font-size="14" fill="#f44336" text-anchor="middle" font-weight="bold">¥1,299</text>
+</svg>

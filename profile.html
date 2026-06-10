@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的 - 闲鱼</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🐟</span>
+                <span>闲鱼</span>
+            </a>
+            <div class="search-box">
+                <input type="text" placeholder="搜索你想要的宝贝">
+                <button>🔍</button>
+            </div>
+            <div class="user-actions">
+                <!-- 动态生成 -->
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- 用户信息卡片 -->
+        <div class="profile-card" id="profileCard"></div>
+
+        <!-- 功能菜单 -->
+        <div class="menu-section">
+            <div class="menu-grid">
+                <a href="my-publish.html" class="menu-item">
+                    <span class="menu-icon">📦</span>
+                    <span class="menu-text">我发布的</span>
+                </a>
+                <a href="my-want.html" class="menu-item">
+                    <span class="menu-icon">❤️</span>
+                    <span class="menu-text">我想要的</span>
+                </a>
+                <a href="message.html" class="menu-item">
+                    <span class="menu-icon">💬</span>
+                    <span class="menu-text">消息</span>
+                </a>
+                <a href="settings.html" class="menu-item">
+                    <span class="menu-icon">⚙️</span>
+                    <span class="menu-text">设置</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- 最近浏览 -->
+        <div class="section">
+            <div class="section-header">
+                <h3>最近浏览</h3>
+            </div>
+            <div class="browse-history" id="browseHistory">
+                <div class="empty-state">
+                    <p>暂无浏览记录</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="student-info">
+            <p>学号：24215220133 | 姓名：何嘉雄</p>
+        </section>
+    </main>
+
+    <!-- 底部导航 -->
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <span class="nav-icon">🏠</span>
+            <span class="nav-text">首页</span>
+        </a>
+        <a href="search.html" class="nav-item">
+            <span class="nav-icon">🔍</span>
+            <span class="nav-text">搜索</span>
+        </a>
+        <a href="publish.html" class="nav-item publish">
+            <span class="nav-icon">+</span>
+            <span class="nav-text">发布</span>
+        </a>
+        <a href="message.html" class="nav-item">
+            <span class="nav-icon">💬</span>
+            <span class="nav-text">消息</span>
+        </a>
+        <a href="profile.html" class="nav-item active">
+            <span class="nav-icon">👤</span>
+            <span class="nav-text">我的</span>
+        </a>
+    </nav>
+
+    <footer class="footer">
+        <p>闲鱼购物平台 - 期末大作业</p>
+        <p>Web编程技术课程设计</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+</html>

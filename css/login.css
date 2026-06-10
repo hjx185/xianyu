@@ -1,0 +1,142 @@
+/* 登录注册页面样式 - 闲鱼风格 v2.0 */
+
+.auth-container {
+    min-height: calc(100vh - 56px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 16px;
+    background: linear-gradient(135deg, #fff8e1 0%, #fff3e0 50%, #ffe0b2 100%);
+}
+
+.auth-box {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.auth-header {
+    padding: 44px 30px 24px;
+    text-align: center;
+    background: linear-gradient(135deg, #ffc107, #ff9800);
+    color: #333;
+}
+
+.auth-logo {
+    font-size: 52px;
+    margin-bottom: 12px;
+}
+
+.auth-header h2 {
+    font-size: 26px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.auth-header p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.auth-form {
+    padding: 32px 28px;
+}
+
+.auth-form .form-group {
+    margin-bottom: 18px;
+}
+
+.auth-form .form-group input {
+    width: 100%;
+    height: 46px;
+    padding: 0 16px;
+    border: 1.5px solid #e8e8e8;
+    border-radius: 10px;
+    font-size: 14px;
+    background: #fafafa;
+    transition: all 0.3s ease;
+}
+
+.auth-form .form-group input:focus {
+    border-color: #ffc107;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.15);
+}
+
+.auth-form .form-group input.error {
+    border-color: #f44336;
+    box-shadow: 0 0 0 3px rgba(244, 67, 54, 0.1);
+}
+
+.form-error {
+    color: #f44336;
+    font-size: 12px;
+    margin-top: 6px;
+    min-height: 18px;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+    font-size: 13px;
+}
+
+.form-options label {
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.form-options a {
+    color: #ff6600;
+    font-weight: 500;
+}
+
+.btn-block {
+    width: 100%;
+    height: 46px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.auth-footer {
+    padding: 0 28px 28px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.auth-footer a {
+    color: #ff6600;
+    font-weight: 600;
+}
+
+.student-info {
+    padding: 12px 28px;
+    text-align: center;
+    background: #f8f8f8;
+    font-size: 12px;
+    color: #999;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.auth-box {
+    animation: fadeIn 0.5s ease;
+}
+
+@media (max-width: 480px) {
+    .auth-box {
+        margin: 0 10px;
+    }
+}

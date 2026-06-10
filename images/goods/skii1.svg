@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="skBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce4ec"/>
+      <stop offset="100%" style="stop-color:#f8bbd0"/>
+    </linearGradient>
+    <linearGradient id="skBottle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#f5f5f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#skBg)" rx="8"/>
+  <circle cx="320" cy="80" r="60" fill="#e91e63" opacity="0.08"/>
+  <circle cx="80" cy="300" r="40" fill="#f48fb1" opacity="0.1"/>
+  <!-- Bottle body -->
+  <rect x="155" y="100" width="90" height="180" rx="10" fill="url(#skBottle)" stroke="#e0e0e0" stroke-width="1.5"/>
+  <!-- Bottle neck -->
+  <rect x="180" y="75" width="40" height="30" rx="5" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Cap -->
+  <rect x="175" y="60" width="50" height="20" rx="8" fill="#c0c0c0" stroke="#aaa" stroke-width="1"/>
+  <rect x="185" y="55" width="30" height="10" rx="5" fill="#d0d0d0"/>
+  <!-- Label area -->
+  <rect x="165" y="130" width="70" height="100" rx="4" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+  <!-- SK-II text -->
+  <text x="200" y="160" font-family="Arial,sans-serif" font-size="18" fill="#333" text-anchor="middle" font-weight="bold">SK-II</text>
+  <line x1="172" y1="165" x2="228" y2="165" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="200" y="182" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Facial Treatment</text>
+  <text x="200" y="195" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Essence</text>
+  <text x="200" y="215" font-family="Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">230ml</text>
+  <!-- Liquid level hint -->
+  <rect x="158" y="200" width="84" height="75" rx="0 0 10 10" fill="#f8e8ef" opacity="0.4"/>
+  <!-- Bottle shine -->
+  <rect x="162" y="105" width="6" height="160" rx="3" fill="rgba(255,255,255,0.6)"/>
+  <!-- Sparkle effects -->
+  <g opacity="0.5">
+    <circle cx="280" cy="140" r="3" fill="#e91e63"/>
+    <circle cx="120" cy="180" r="2" fill="#f48fb1"/>
+    <circle cx="290" cy="220" r="2.5" fill="#e91e63"/>
+  </g>
+  <!-- Label -->
+  <text x="200" y="315" font-family="Arial,sans-serif" font-size="15" fill="#333" text-anchor="middle" font-weight="600">SK-II 神仙水</text>
+  <text x="200" y="335" font-family="Arial,sans-serif" font-size="12" fill="#999" text-anchor="middle">230ml · 全新未开封</text>
+  <!-- Price -->
+  <rect x="145" y="355" width="110" height="28" rx="14" fill="white"/>
+  <text x="200" y="374" font-family="Arial,sans-serif" font-size="14" fill="#e91e63" text-anchor="middle" font-weight="bold">¥899</text>
+</svg>

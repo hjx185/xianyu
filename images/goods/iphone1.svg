@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="ipBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="ipScr1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="50%" style="stop-color:#764ba2"/>
+      <stop offset="100%" style="stop-color:#f093fb"/>
+    </linearGradient>
+    <linearGradient id="ipBody1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d2d3f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#ipBg1)" rx="8"/>
+  <!-- Decorative circles -->
+  <circle cx="50" cy="60" r="80" fill="#667eea" opacity="0.08"/>
+  <circle cx="350" cy="340" r="100" fill="#f093fb" opacity="0.06"/>
+  <!-- Phone body -->
+  <rect x="130" y="35" width="140" height="285" rx="22" fill="url(#ipBody1)" stroke="#4a4a6a" stroke-width="1.5"/>
+  <!-- Screen -->
+  <rect x="138" y="50" width="124" height="255" rx="14" fill="url(#ipScr1)"/>
+  <!-- Dynamic Island -->
+  <rect x="172" y="56" width="56" height="20" rx="10" fill="#1a1a2e"/>
+  <circle cx="190" cy="66" r="3" fill="#2d2d3f"/>
+  <circle cx="210" cy="66" r="3" fill="#2d2d3f"/>
+  <!-- Screen UI elements -->
+  <rect x="155" y="90" width="90" height="12" rx="6" fill="rgba(255,255,255,0.25)"/>
+  <rect x="155" y="110" width="70" height="8" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <rect x="155" y="125" width="80" height="8" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <!-- Camera module on screen -->
+  <circle cx="180" cy="180" r="22" fill="rgba(0,0,0,0.3)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  <circle cx="180" cy="180" r="14" fill="rgba(0,0,0,0.4)"/>
+  <circle cx="180" cy="180" r="6" fill="#1a1a2e"/>
+  <circle cx="180" cy="180" r="3" fill="#2d2d3f"/>
+  <circle cx="220" cy="180" r="22" fill="rgba(0,0,0,0.3)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  <circle cx="220" cy="180" r="14" fill="rgba(0,0,0,0.4)"/>
+  <circle cx="220" cy="180" r="6" fill="#1a1a2e"/>
+  <circle cx="200" cy="215" r="22" fill="rgba(0,0,0,0.3)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  <circle cx="200" cy="215" r="14" fill="rgba(0,0,0,0.4)"/>
+  <circle cx="200" cy="215" r="6" fill="#1a1a2e"/>
+  <!-- Flash -->
+  <circle cx="235" cy="155" r="5" fill="#ffd700" opacity="0.6"/>
+  <!-- Side buttons -->
+  <rect x="125" y="110" width="5" height="28" rx="2" fill="#3a3a5a"/>
+  <rect x="125" y="155" width="5" height="45" rx="2" fill="#3a3a5a"/>
+  <rect x="270" y="140" width="5" height="35" rx="2" fill="#3a3a5a"/>
+  <!-- Home indicator -->
+  <rect x="175" y="295" width="50" height="4" rx="2" fill="rgba(255,255,255,0.3)"/>
+  <!-- Label -->
+  <text x="200" y="355" font-family="Arial,sans-serif" font-size="15" fill="rgba(255,255,255,0.7)" text-anchor="middle" font-weight="600">iPhone 14 Pro</text>
+  <text x="200" y="375" font-family="Arial,sans-serif" font-size="12" fill="rgba(255,255,255,0.4)" text-anchor="middle">暗紫色 · 256GB</text>
+</svg>

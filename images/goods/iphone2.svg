@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="ipBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29"/>
+      <stop offset="100%" style="stop-color:#302b63"/>
+    </linearGradient>
+    <linearGradient id="ipScr2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe"/>
+      <stop offset="100%" style="stop-color:#00f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#ipBg2)" rx="8"/>
+  <circle cx="320" cy="80" r="120" fill="#4facfe" opacity="0.05"/>
+  <!-- Phone side view -->
+  <rect x="155" y="40" width="90" height="280" rx="16" fill="#2a2a4a" stroke="#555" stroke-width="1"/>
+  <rect x="160" y="52" width="80" height="256" rx="10" fill="url(#ipScr2)"/>
+  <!-- Dynamic Island -->
+  <rect x="182" y="58" width="36" height="14" rx="7" fill="#0f0c29"/>
+  <!-- Screen content - App icons grid -->
+  <rect x="172" y="85" width="24" height="24" rx="6" fill="rgba(255,255,255,0.3)"/>
+  <rect x="202" y="85" width="24" height="24" rx="6" fill="rgba(255,255,255,0.2)"/>
+  <rect x="172" y="115" width="24" height="24" rx="6" fill="rgba(255,255,255,0.2)"/>
+  <rect x="202" y="115" width="24" height="24" rx="6" fill="rgba(255,255,255,0.3)"/>
+  <!-- Notification cards -->
+  <rect x="168" y="155" width="64" height="30" rx="6" fill="rgba(255,255,255,0.2)"/>
+  <rect x="172" y="160" width="40" height="6" rx="3" fill="rgba(255,255,255,0.3)"/>
+  <rect x="172" y="170" width="50" height="5" rx="2.5" fill="rgba(255,255,255,0.15)"/>
+  <rect x="168" y="192" width="64" height="30" rx="6" fill="rgba(255,255,255,0.15)"/>
+  <rect x="172" y="197" width="35" height="6" rx="3" fill="rgba(255,255,255,0.25)"/>
+  <rect x="172" y="207" width="45" height="5" rx="2.5" fill="rgba(255,255,255,0.1)"/>
+  <!-- Bottom bar -->
+  <rect x="168" y="268" width="64" height="22" rx="11" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="183" cy="279" r="6" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="200" cy="279" r="6" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="217" cy="279" r="6" fill="rgba(255,255,255,0.2)"/>
+  <!-- Side button -->
+  <rect x="245" y="130" width="4" height="30" rx="2" fill="#4a4a6a"/>
+  <!-- Decorative dots -->
+  <circle cx="80" cy="100" r="4" fill="#4facfe" opacity="0.3"/>
+  <circle cx="100" cy="320" r="6" fill="#00f2fe" opacity="0.2"/>
+  <circle cx="320" cy="280" r="5" fill="#4facfe" opacity="0.25"/>
+  <!-- Label -->
+  <text x="200" y="355" font-family="Arial,sans-serif" font-size="15" fill="rgba(255,255,255,0.7)" text-anchor="middle" font-weight="600">iPhone 14 Pro</text>
+  <text x="200" y="375" font-family="Arial,sans-serif" font-size="12" fill="rgba(255,255,255,0.4)" text-anchor="middle">屏幕细节展示</text>
+</svg>

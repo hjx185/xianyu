@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 300" width="750" height="300">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c5ce7"/>
+      <stop offset="50%" style="stop-color:#a29bfe"/>
+      <stop offset="100%" style="stop-color:#74b9ff"/>
+    </linearGradient>
+    <linearGradient id="laptop3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c0c0c0"/>
+      <stop offset="100%" style="stop-color:#a0a0a0"/>
+    </linearGradient>
+    <linearGradient id="scr3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <filter id="shadow3">
+      <feDropShadow dx="3" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="750" height="300" fill="url(#bg3)"/>
+  <!-- Decorative elements -->
+  <circle cx="650" cy="40" r="60" fill="#fff" opacity="0.06"/>
+  <circle cx="700" cy="260" r="50" fill="#fff" opacity="0.05"/>
+  <circle cx="80" cy="250" r="35" fill="#fff" opacity="0.08"/>
+  <!-- Stars -->
+  <g opacity="0.3">
+    <polygon points="500,50 503,60 513,60 505,66 508,76 500,70 492,76 495,66 487,60 497,60" fill="#fff"/>
+    <polygon points="620,90 622,96 628,96 623,100 625,106 620,102 615,106 617,100 612,96 618,96" fill="#fff"/>
+    <polygon points="460,30 462,36 468,36 463,40 465,46 460,42 455,46 457,40 452,36 458,36" fill="#fff"/>
+  </g>
+  <!-- Laptop illustration -->
+  <g filter="url(#shadow3)">
+    <!-- Screen -->
+    <rect x="510" y="55" width="200" height="130" rx="6" fill="#1a1a2e" stroke="#555" stroke-width="1"/>
+    <rect x="517" y="62" width="186" height="110" rx="3" fill="url(#scr3)"/>
+    <!-- Camera -->
+    <circle cx="610" cy="68" r="2" fill="#2d2d3f"/>
+    <!-- Screen content -->
+    <rect x="530" y="80" width="100" height="8" rx="4" fill="rgba(255,255,255,0.2)"/>
+    <rect x="530" y="95" width="70" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+    <rect x="530" y="108" width="85" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+    <!-- Code lines -->
+    <rect x="530" y="125" width="110" height="3" rx="1.5" fill="rgba(255,255,255,0.08)"/>
+    <rect x="540" y="133" width="90" height="3" rx="1.5" fill="rgba(255,255,255,0.08)"/>
+    <rect x="540" y="141" width="100" height="3" rx="1.5" fill="rgba(255,255,255,0.08)"/>
+    <rect x="540" y="149" width="70" height="3" rx="1.5" fill="rgba(255,255,255,0.08)"/>
+    <!-- Side panel -->
+    <rect x="640" y="80" width="55" height="40" rx="3" fill="rgba(255,255,255,0.12)"/>
+    <rect x="640" y="128" width="55" height="35" rx="3" fill="rgba(255,255,255,0.08)"/>
+    <!-- Base -->
+    <path d="M495,188 L510,185 L710,185 L725,188 L735,200 L485,200 Z" fill="url(#laptop3)" stroke="#888" stroke-width="0.8"/>
+    <rect x="590" y="190" width="40" height="4" rx="2" fill="#888"/>
+    <!-- Keyboard hint -->
+    <rect x="520" y="193" width="180" height="2" rx="1" fill="#999" opacity="0.3"/>
+  </g>
+  <!-- Text -->
+  <text x="60" y="105" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="44" font-weight="bold" fill="#fff">开学季</text>
+  <text x="60" y="148" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="20" fill="#fff" opacity="0.9">电脑办公 · 助力学习</text>
+  <text x="60" y="180" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="14" fill="#fff" opacity="0.7">笔记本 · 平板 · 数码配件</text>
+  <!-- CTA button -->
+  <rect x="60" y="205" width="140" height="42" rx="21" fill="#fff"/>
+  <text x="130" y="232" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="16" font-weight="bold" fill="#6c5ce7" text-anchor="middle">立即选购</text>
+  <!-- Price badge -->
+  <rect x="240" y="200" width="120" height="50" rx="10" fill="#fff" opacity="0.9"/>
+  <text x="300" y="222" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="12" fill="#666" text-anchor="middle">学生专享</text>
+  <text x="300" y="242" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="16" font-weight="bold" fill="#e74c3c" text-anchor="middle">最高省50%</text>
+</svg>

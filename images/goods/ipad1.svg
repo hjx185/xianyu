@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="ipdBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8eaf6"/>
+      <stop offset="100%" style="stop-color:#c5cae9"/>
+    </linearGradient>
+    <linearGradient id="ipdScr1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#42a5f5"/>
+      <stop offset="50%" style="stop-color:#7e57c2"/>
+      <stop offset="100%" style="stop-color:#ec407a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#ipdBg1)" rx="8"/>
+  <circle cx="320" cy="300" r="80" fill="#7e57c2" opacity="0.06"/>
+  <!-- iPad body -->
+  <rect x="85" y="70" width="230" height="170" rx="12" fill="#1a1a2e" stroke="#444" stroke-width="1.5"/>
+  <!-- Screen -->
+  <rect x="92" y="77" width="216" height="156" rx="6" fill="url(#ipdScr1)"/>
+  <!-- Camera -->
+  <circle cx="200" cy="74" r="2" fill="#2d2d3f"/>
+  <!-- Screen UI -->
+  <rect x="108" y="95" width="100" height="10" rx="5" fill="rgba(255,255,255,0.25)"/>
+  <rect x="108" y="112" width="70" height="7" rx="3.5" fill="rgba(255,255,255,0.15)"/>
+  <!-- App grid -->
+  <rect x="108" y="130" width="30" height="30" rx="7" fill="rgba(255,255,255,0.2)"/>
+  <rect x="145" y="130" width="30" height="30" rx="7" fill="rgba(255,255,255,0.15)"/>
+  <rect x="182" y="130" width="30" height="30" rx="7" fill="rgba(255,255,255,0.2)"/>
+  <rect x="219" y="130" width="30" height="30" rx="7" fill="rgba(255,255,255,0.12)"/>
+  <rect x="108" y="167" width="30" height="30" rx="7" fill="rgba(255,255,255,0.12)"/>
+  <rect x="145" y="167" width="30" height="30" rx="7" fill="rgba(255,255,255,0.2)"/>
+  <rect x="182" y="167" width="30" height="30" rx="7" fill="rgba(255,255,255,0.15)"/>
+  <rect x="219" y="167" width="30" height="30" rx="7" fill="rgba(255,255,255,0.18)"/>
+  <!-- Home indicator -->
+  <rect x="175" y="225" width="50" height="3" rx="1.5" fill="rgba(255,255,255,0.3)"/>
+  <!-- Apple Pencil hint -->
+  <rect x="320" y="85" width="8" height="100" rx="4" fill="#e0e0e0" stroke="#ccc" stroke-width="1" transform="rotate(15,324,135)"/>
+  <circle cx="324" cy="85" r="3" fill="#ccc" transform="rotate(15,324,85)"/>
+  <!-- Label -->
+  <text x="200" y="275" font-family="Arial,sans-serif" font-size="15" fill="#333" text-anchor="middle" font-weight="600">iPad Air 5</text>
+  <text x="200" y="295" font-family="Arial,sans-serif" font-size="12" fill="#999" text-anchor="middle">M1芯片 · 64GB · 星光色</text>
+  <!-- Price -->
+  <rect x="145" y="315" width="110" height="28" rx="14" fill="#e8eaf6"/>
+  <text x="200" y="334" font-family="Arial,sans-serif" font-size="14" fill="#f44336" text-anchor="middle" font-weight="bold">¥3,299</text>
+</svg>

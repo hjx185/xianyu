@@ -1,0 +1,88 @@
+﻿/* 搜索页样式 - 闲鱼风格 v2.0 */
+
+.search-filters {
+    background: white;
+    border-radius: 12px;
+    padding: 14px 20px;
+    margin-bottom: 14px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+}
+
+.filter-row {
+    margin-bottom: 10px;
+}
+
+.filter-row:last-child {
+    margin-bottom: 0;
+}
+
+.filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.filter-btn {
+    padding: 6px 16px;
+    border: 1.5px solid #e8e8e8;
+    border-radius: 18px;
+    background: white;
+    color: #666;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    font-weight: 500;
+}
+
+.filter-btn:hover {
+    border-color: #ffc107;
+    color: #ff6600;
+}
+
+.filter-btn.active {
+    background: linear-gradient(135deg, #ffc107, #ff9800);
+    color: #333;
+    border-color: #ffc107;
+    box-shadow: 0 2px 8px rgba(255, 152, 0, 0.25);
+}
+
+.search-results {
+    margin-bottom: 20px;
+}
+
+.results-header {
+    padding: 12px 0;
+    font-size: 13px;
+    color: #999;
+}
+
+.empty-state {
+    background: white;
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+}
+
+.empty-state .icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.empty-state p {
+    color: #999;
+    margin-bottom: 16px;
+}
+
+.student-info {
+    text-align: center;
+    padding: 16px;
+    background: white;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.student-info p {
+    color: #333;
+    font-size: 18px;`n    font-weight: bold;`n    letter-spacing: 2px;
+}

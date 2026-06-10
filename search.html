@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索 - 闲鱼</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🐟</span>
+                <span>闲鱼</span>
+            </a>
+            <div class="search-box">
+                <input type="text" placeholder="搜索你想要的宝贝" id="searchInput">
+                <button id="searchBtn">🔍</button>
+            </div>
+            <div class="user-actions">
+                <!-- 动态生成 -->
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- 筛选条件 -->
+        <div class="search-filters">
+            <div class="filter-row">
+                <div class="filter-options" id="categoryFilters">
+                    <button class="filter-btn active" data-category="all">全部</button>
+                </div>
+            </div>
+            <div class="filter-row">
+                <div class="filter-options" id="sortFilters">
+                    <button class="filter-btn active" data-sort="recommend">综合</button>
+                    <button class="filter-btn" data-sort="new">最新</button>
+                    <button class="filter-btn" data-sort="price_asc">价格↑</button>
+                    <button class="filter-btn" data-sort="price_desc">价格↓</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 搜索结果 -->
+        <div class="search-results">
+            <div class="results-header">
+                <span id="resultsCount">共0件商品</span>
+            </div>
+            <div class="waterfall-grid" id="goodsList"></div>
+            <div class="empty-state hidden" id="emptyState">
+                <div class="icon">🔍</div>
+                <p>没有找到相关商品</p>
+                <a href="index.html" class="btn btn-primary">逛逛首页</a>
+            </div>
+        </div>
+
+        <section class="student-info">
+            <p>学号：24215220133 | 姓名：何嘉雄</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>闲鱼购物平台 - 期末大作业</p>
+        <p>Web编程技术课程设计</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>

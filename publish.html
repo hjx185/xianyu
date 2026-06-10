@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>发布商品 - 闲鱼</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/publish.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🐟</span>
+                <span>闲鱼</span>
+            </a>
+            <div class="search-box">
+                <input type="text" placeholder="搜索你想要的宝贝">
+                <button>🔍</button>
+            </div>
+            <div class="user-actions">
+                <!-- 动态生成 -->
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="publish-container">
+            <h1 class="page-title">发布闲置</h1>
+
+            <form class="publish-form" id="publishForm">
+                <!-- 图片上传 -->
+                <div class="form-section">
+                    <div class="image-upload-area" id="imageUploadArea">
+                        <div class="upload-placeholder" onclick="document.getElementById('images').click()">
+                            <span class="upload-icon">📷</span>
+                            <span class="upload-text">添加图片（最多9张）</span>
+                        </div>
+                        <input type="file" id="images" multiple accept="image/*" style="display:none">
+                    </div>
+                    <div class="image-preview" id="imagePreview"></div>
+                </div>
+
+                <!-- 基本信息 -->
+                <div class="form-section">
+                    <div class="form-group">
+                        <input type="text" id="title" placeholder="标题（描述你要卖的宝贝）" maxlength="50" required>
+                        <div class="char-count"><span id="titleCount">0</span>/50</div>
+                        <div class="form-error" id="titleError"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="description" placeholder="描述宝贝的详细信息、购买渠道、使用情况等" rows="4" required></textarea>
+                        <div class="form-error" id="descriptionError"></div>
+                    </div>
+                </div>
+
+                <!-- 价格信息 -->
+                <div class="form-section">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>出售价格</label>
+                            <div class="price-input">
+                                <span class="currency">¥</span>
+                                <input type="number" id="price" placeholder="0.00" min="0" step="0.01" required>
+                            </div>
+                            <div class="form-error" id="priceError"></div>
+                        </div>
+                        <div class="form-group">
+                            <label>原价（选填）</label>
+                            <div class="price-input">
+                                <span class="currency">¥</span>
+                                <input type="number" id="originalPrice" placeholder="0.00" min="0" step="0.01">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 分类和状态 -->
+                <div class="form-section">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>分类</label>
+                            <select id="category" required>
+                                <option value="">选择分类</option>
+                            </select>
+                            <div class="form-error" id="categoryError"></div>
+                        </div>
+                        <div class="form-group">
+                            <label>成色</label>
+                            <select id="condition" required>
+                                <option value="">选择成色</option>
+                                <option value="全新">全新</option>
+                                <option value="99新">99新</option>
+                                <option value="95新">95新</option>
+                                <option value="9成新">9成新</option>
+                                <option value="8成新">8成新</option>
+                                <option value="7成新及以下">7成新及以下</option>
+                            </select>
+                            <div class="form-error" id="conditionError"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 标签和配送 -->
+                <div class="form-section">
+                    <div class="form-group">
+                        <label>标签（用逗号分隔）</label>
+                        <input type="text" id="tags" placeholder="如：包邮,正品,可小刀">
+                    </div>
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="freeShipping" checked>
+                            <span>包邮</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- 提交按钮 -->
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="previewGoods()">预览</button>
+                    <button type="submit" class="btn btn-primary">发布</button>
+                </div>
+            </form>
+        </div>
+
+        <section class="student-info">
+            <p>学号：24215220133 | 姓名：何嘉雄</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>闲鱼购物平台 - 期末大作业</p>
+        <p>Web编程技术课程设计</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/publish.js"></script>
+</body>
+</html>

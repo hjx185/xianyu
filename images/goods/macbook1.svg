@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="mbBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50"/>
+      <stop offset="100%" style="stop-color:#3498db"/>
+    </linearGradient>
+    <linearGradient id="mbScr1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <linearGradient id="mbBody1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c0c0c0"/>
+      <stop offset="100%" style="stop-color:#a0a0a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#mbBg1)" rx="8"/>
+  <circle cx="320" cy="80" r="90" fill="#3498db" opacity="0.1"/>
+  <!-- Laptop screen -->
+  <rect x="70" y="60" width="260" height="170" rx="8" fill="#1a1a2e" stroke="#555" stroke-width="1.5"/>
+  <rect x="78" y="68" width="244" height="148" rx="4" fill="url(#mbScr1)"/>
+  <!-- Camera dot -->
+  <circle cx="200" cy="75" r="2.5" fill="#2d2d3f"/>
+  <!-- Screen UI -->
+  <rect x="95" y="85" width="120" height="10" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <rect x="95" y="102" width="80" height="7" rx="3.5" fill="rgba(255,255,255,0.12)"/>
+  <rect x="95" y="115" width="100" height="7" rx="3.5" fill="rgba(255,255,255,0.12)"/>
+  <rect x="95" y="128" width="60" height="7" rx="3.5" fill="rgba(255,255,255,0.12)"/>
+  <!-- Code-like lines -->
+  <rect x="95" y="148" width="140" height="3" rx="1.5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="105" y="156" width="110" height="3" rx="1.5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="105" y="164" width="130" height="3" rx="1.5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="105" y="172" width="90" height="3" rx="1.5" fill="rgba(255,255,255,0.08)"/>
+  <!-- Image blocks on screen -->
+  <rect x="240" y="85" width="60" height="45" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <rect x="240" y="140" width="60" height="45" rx="4" fill="rgba(255,255,255,0.1)"/>
+  <!-- Laptop base -->
+  <path d="M50 235 L70 230 L330 230 L350 235 L360 250 L40 250 Z" fill="url(#mbBody1)" stroke="#888" stroke-width="1"/>
+  <rect x="160" y="233" width="80" height="5" rx="2.5" fill="#888"/>
+  <!-- Trackpad area -->
+  <rect x="150" y="238" width="100" height="3" rx="1.5" fill="#b0b0b0"/>
+  <!-- Keyboard hint -->
+  <rect x="80" y="236" width="240" height="2" rx="1" fill="#999" opacity="0.3"/>
+  <!-- Apple logo hint on lid -->
+  <circle cx="200" cy="130" r="8" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+  <!-- Label -->
+  <text x="200" y="300" font-family="Arial,sans-serif" font-size="15" fill="rgba(255,255,255,0.8)" text-anchor="middle" font-weight="600">MacBook Pro</text>
+  <text x="200" y="320" font-family="Arial,sans-serif" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle">M2芯片 · 16+512G</text>
+  <!-- Price hint -->
+  <rect x="145" y="340" width="110" height="28" rx="14" fill="rgba(255,255,255,0.15)"/>
+  <text x="200" y="359" font-family="Arial,sans-serif" font-size="14" fill="#ffd700" text-anchor="middle" font-weight="bold">¥8,999</text>
+</svg>

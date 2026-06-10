@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="jdBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50"/>
+      <stop offset="100%" style="stop-color:#e74c3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#jdBg2)" rx="8"/>
+  <!-- Shoe - top/angle view -->
+  <!-- Sole pattern -->
+  <path d="M100 250 L110 265 L290 265 L300 250 L295 240 L105 240 Z" fill="#1a1a1a"/>
+  <rect x="120" y="245" width="160" height="4" rx="2" fill="#333"/>
+  <!-- Outsole grip pattern -->
+  <line x1="130" y1="255" x2="130" y2="262" stroke="#555" stroke-width="2"/>
+  <line x1="150" y1="255" x2="150" y2="262" stroke="#555" stroke-width="2"/>
+  <line x1="170" y1="255" x2="170" y2="262" stroke="#555" stroke-width="2"/>
+  <line x1="190" y1="255" x2="190" y2="262" stroke="#555" stroke-width="2"/>
+  <line x1="210" y1="255" x2="210" y2="262" stroke="#555" stroke-width="2"/>
+  <line x1="230" y1="255" x2="230" y2="262" stroke="#555" stroke-width="2"/>
+  <line x1="250" y1="255" x2="250" y2="262" stroke="#555" stroke-width="2"/>
+  <line x1="270" y1="255" x2="270" y2="262" stroke="#555" stroke-width="2"/>
+  <!-- Upper shoe -->
+  <path d="M105 240 Q100 200 115 170 Q130 145 170 135 L230 132 Q270 135 285 160 L300 200 L295 240 Z" fill="#c0392b"/>
+  <!-- Toe cap -->
+  <path d="M105 240 Q102 215 110 195 Q115 180 140 172 L170 168 L170 240 Z" fill="#e74c3c"/>
+  <!-- Perforations on toe -->
+  <circle cx="125" cy="210" r="2.5" fill="rgba(0,0,0,0.3)"/>
+  <circle cx="135" cy="205" r="2.5" fill="rgba(0,0,0,0.3)"/>
+  <circle cx="145" cy="200" r="2.5" fill="rgba(0,0,0,0.3)"/>
+  <circle cx="125" cy="222" r="2.5" fill="rgba(0,0,0,0.3)"/>
+  <circle cx="135" cy="217" r="2.5" fill="rgba(0,0,0,0.3)"/>
+  <circle cx="145" cy="212" r="2.5" fill="rgba(0,0,0,0.3)"/>
+  <!-- Swoosh -->
+  <path d="M130 225 Q170 195 230 190 Q265 188 290 200" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Ankle/collar -->
+  <path d="M230 132 Q250 125 270 130 L285 160 Q275 145 255 138 Q240 133 230 132" fill="#a93226"/>
+  <!-- Tongue -->
+  <path d="M205 133 L215 105 Q218 95 228 95 L238 97 Q242 100 240 110 L232 132" fill="#d4a574"/>
+  <!-- Lace area -->
+  <circle cx="200" cy="148" r="3" fill="#1a1a2e"/>
+  <circle cx="215" cy="143" r="3" fill="#1a1a2e"/>
+  <circle cx="230" cy="140" r="3" fill="#1a1a2e"/>
+  <line x1="200" y1="148" x2="215" y2="143" stroke="#fff" stroke-width="1.5"/>
+  <line x1="215" y1="143" x2="230" y2="140" stroke="#fff" stroke-width="1.5"/>
+  <!-- Wings logo -->
+  <circle cx="255" cy="160" r="9" fill="none" stroke="#ffd700" stroke-width="1.5"/>
+  <!-- Shadow -->
+  <ellipse cx="200" cy="278" rx="100" ry="6" fill="rgba(0,0,0,0.2)"/>
+  <!-- Label -->
+  <text x="200" y="310" font-family="Arial,sans-serif" font-size="15" fill="rgba(255,255,255,0.8)" text-anchor="middle" font-weight="600">Air Jordan 1</text>
+  <text x="200" y="330" font-family="Arial,sans-serif" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle">底部细节展示</text>
+  <!-- Price -->
+  <rect x="145" y="350" width="110" height="28" rx="14" fill="rgba(255,255,255,0.15)"/>
+  <text x="200" y="369" font-family="Arial,sans-serif" font-size="14" fill="#ffd700" text-anchor="middle" font-weight="bold">¥1,599</text>
+</svg>

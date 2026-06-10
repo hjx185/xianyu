@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="24" height="24">
+  <defs>
+    <linearGradient id="av3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e84393"/>
+      <stop offset="100%" style="stop-color:#fd79a8"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#av3)"/>
+  <circle cx="50" cy="50" r="46" fill="url(#av3)" stroke="#fff" stroke-width="2"/>
+  <!-- Face -->
+  <circle cx="50" cy="42" r="16" fill="#FFD5B4"/>
+  <!-- Eyes -->
+  <ellipse cx="43" cy="40" rx="2" ry="2.5" fill="#333"/>
+  <ellipse cx="57" cy="40" rx="2" ry="2.5" fill="#333"/>
+  <!-- Eye highlights -->
+  <circle cx="44" cy="39" r="0.8" fill="#fff"/>
+  <circle cx="58" cy="39" r="0.8" fill="#fff"/>
+  <!-- Blush -->
+  <ellipse cx="38" cy="45" rx="4" ry="2.5" fill="#ffb6c1" opacity="0.5"/>
+  <ellipse cx="62" cy="45" rx="4" ry="2.5" fill="#ffb6c1" opacity="0.5"/>
+  <!-- Smile -->
+  <path d="M44,48 Q50,53 56,48" fill="none" stroke="#e84393" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Hair -->
+  <path d="M33,36 Q33,17 50,15 Q67,17 67,36 Q66,25 50,23 Q34,25 33,36" fill="#5c3317"/>
+  <path d="M33,36 Q30,50 33,60" fill="none" stroke="#5c3317" stroke-width="4" stroke-linecap="round"/>
+  <path d="M67,36 Q70,50 67,60" fill="none" stroke="#5c3317" stroke-width="4" stroke-linecap="round"/>
+  <!-- Body -->
+  <path d="M30,65 Q30,80 50,82 Q70,80 70,65 Q65,75 50,76 Q35,75 30,65" fill="#e84393"/>
+  <!-- Fashion icon -->
+  <text x="50" y="72" font-family="Arial" font-size="10" fill="#fff" text-anchor="middle">👗</text>
+</svg>

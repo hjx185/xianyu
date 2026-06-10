@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f5f5f5"/>
+  <!-- Robot vacuum top view -->
+  <circle cx="200" cy="190" r="100" fill="#fff" stroke="#e0e0e0" stroke-width="2"/>
+  <circle cx="200" cy="190" r="95" fill="#f8f8f8"/>
+  <!-- LDS sensor tower -->
+  <circle cx="200" cy="190" r="25" fill="#e0e0e0"/>
+  <circle cx="200" cy="190" r="18" fill="#ccc"/>
+  <circle cx="200" cy="190" r="8" fill="#333"/>
+  <!-- Front bumper -->
+  <path d="M130,160 Q200,130 270,160" fill="none" stroke="#ddd" stroke-width="8"/>
+  <!-- Buttons -->
+  <circle cx="180" cy="155" r="6" fill="#4CAF50"/>
+  <circle cx="200" cy="150" r="6" fill="#333"/>
+  <circle cx="220" cy="155" r="6" fill="#FF9800"/>
+  <!-- Wheels -->
+  <ellipse cx="145" cy="240" rx="15" ry="8" fill="#333"/>
+  <ellipse cx="255" cy="240" rx="15" ry="8" fill="#333"/>
+  <!-- Side brush -->
+  <circle cx="130" cy="200" r="8" fill="#666"/>
+  <line x1="130" y1="200" x2="115" y2="190" stroke="#666" stroke-width="2"/>
+  <line x1="130" y1="200" x2="115" y2="210" stroke="#666" stroke-width="2"/>
+  <line x1="130" y1="200" x2="120" y2="185" stroke="#666" stroke-width="2"/>
+  <!-- Mop attachment hint -->
+  <rect x="160" y="260" width="80" height="10" rx="3" fill="#b0e0e6"/>
+  <!-- Xiaomi logo -->
+  <text x="200" y="215" font-family="Arial" font-size="12" fill="#999" text-anchor="middle">MI</text>
+  <!-- Label -->
+  <text x="200" y="330" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">小米扫地机器人1S</text>
+  <text x="200" y="350" font-family="Arial, sans-serif" font-size="12" fill="#999" text-anchor="middle">九成新 功能正常</text>
+</svg>
